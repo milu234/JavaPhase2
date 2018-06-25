@@ -5,7 +5,9 @@ public class App {
 		// TODO Auto-generated method stub
 		int myNumber ;
 		myNumber = 78;
+		short myShort = 874;
 		System.out.println(myNumber);
+		System.out.println(myShort);
 
 	}
 
