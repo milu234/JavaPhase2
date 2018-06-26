@@ -13,6 +13,8 @@ public class App {
 		boolean myBoolean = true;
 		byte myByte = 127;
 		
+		//PRIMITIVE TYPES
+		
 		System.out.println(myNumber);
 		System.out.println(myShort);
 		System.out.println(myLong);
