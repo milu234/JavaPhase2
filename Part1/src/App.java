@@ -16,6 +16,7 @@ public class App {
 		System.out.println(myLong);
 		System.out.println(myDouble);
 		System.out.println(myFloat);
+		System.out.println(myChar);
 
 	}
 
