@@ -11,6 +11,7 @@ public class App {
 		float myFloat = 7.32f;
 		char myChar = 'y';
 		boolean myBoolean = true;
+		byte myByte = 127;
 		
 		System.out.println(myNumber);
 		System.out.println(myShort);
@@ -19,6 +20,7 @@ public class App {
 		System.out.println(myFloat);
 		System.out.println(myChar);
 		System.out.println(myBoolean);
+		System.out.println(myByte);
 
 	}
 
