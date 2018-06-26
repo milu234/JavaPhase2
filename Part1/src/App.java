@@ -9,6 +9,8 @@ public class App {
 		long myLong = 98745;
 		double myDouble = 7.74589;
 		float myFloat = 7.32f;
+		char myChar = 'y';
+		
 		System.out.println(myNumber);
 		System.out.println(myShort);
 		System.out.println(myLong);
