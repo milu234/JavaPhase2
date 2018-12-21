@@ -47,4 +47,4 @@ long      64 bits     -2^63 to 2^63-1        0
 byte b = 100;
 short s = 1000;
 int i = -10000;
-long l = 10000000L;
+long l = 10000000L; //L is required if the value is out if range
