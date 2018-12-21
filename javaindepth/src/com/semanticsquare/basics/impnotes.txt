@@ -35,9 +35,16 @@ There are 8 primtive data types
 		
 		
 ****************************************************		
-Type	Bit Depth	  Value Range         Default
+Type	Bit Depth	  Value Range         Default  *
 ****************************************************
 byte      8 bits      -2^7 to 2^7-1          0
 short     16 bits     -2^15 to 2^15-1        0
 int       32 bits     -2^63 to 2^63-1        0 
 long      64 bits     -2^63 to 2^63-1        0
+*******************************************************
+
+
+byte b = 100;
+short s = 1000;
+int i = -10000;
+long l = 10000000L;
