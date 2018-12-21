@@ -1,0 +1,34 @@
+Types of variables
+
+-Instance Variables
+-Static variables
+-Local Variables
+
+//////////////////////
+
+Instance Variables
+--DEcclared Directly within the class
+--Represent Object State
+--Get Default value
+--Cannot be reinitialized within the class
+
+
+********
+
+Static Variables
+--Declared Directly within the class with keyword Static
+--Class Variables
+---one copy per class
+--Gets Default value
+--Cannot be reinitialized directly within the class
+
+             Primitives
+			       | 
+				  / \
+				 /   \
+				/     \
+			   /	   \
+			boolean **Number***************************
+		************integer || Floating-Point || Character*
+		*byte|short|int|long ||  float | double||  char*
+		*************************************************
