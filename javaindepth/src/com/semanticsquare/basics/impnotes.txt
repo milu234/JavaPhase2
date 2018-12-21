@@ -21,7 +21,7 @@ Static Variables
 ---one copy per class
 --Gets Default value
 --Cannot be reinitialized directly within the class
-
+There are 8 primtive data types
              Primitives
 			       | 
 				  / \
@@ -32,3 +32,12 @@ Static Variables
 		************integer || Floating-Point || Character*
 		*byte|short|int|long ||  float | double||  char*
 		*************************************************
+		
+		
+****************************************************		
+Type	Bit Depth	  Value Range         Default
+****************************************************
+byte      8 bits      -2^7 to 2^7-1          0
+short     16 bits     -2^15 to 2^15-1        0
+int       32 bits     -2^63 to 2^63-1        0 
+long      64 bits     -2^63 to 2^63-1        0
