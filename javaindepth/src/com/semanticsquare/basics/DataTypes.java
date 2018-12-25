@@ -1,22 +1,30 @@
 class DataTypes{
-	public static void main(String[] args){
-		long  m = 40;
-		int n = (int)m;
-		System.out.println(m);
-		System.out.println(n);
-		byte b = 65;
-		char c = (char)b; // c='A'
-		System.out.println(c);
-		char d = 65; //c = 'A'
-		System.out.println(d);
-		short e = 'A';
-		System.out.println(e);
-		int x = (int)3.14f ; 
-		System.out.println(x);
-		int y  = (int)0.9;
-		System.out.println(y);
+
+		static void typeCasting(){
+			
+			System.out.println("\nInside TypeCasting");
+			//Explicit Casting
+			long y =42;
+			int x = (int)y;
+			System.out.println("Nornal Value : " + x);
+			
+			//Information loss due to Explicit TypeCasting
+			byte narrowedByte = (byte)123456;
+			System.out.println("narrowedByte :  "  + narrowedByte );
+			
+			// Truncation
+			int iTruncated = (int)0.99;
+			System.out.println("iTruncated: " + iTruncated);
+			
+			
+			
+		}
 		
-		char z = (char)65.5; // c = 'A'
-		System.out.println(z);
-	}	
+		public static void main(String args[]){
+			
+			typeCasting();
+		}
+		
+		
+	
 }
