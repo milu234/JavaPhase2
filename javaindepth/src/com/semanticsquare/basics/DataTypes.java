@@ -42,7 +42,13 @@ class DataTypes{
 			
 		}
 		
+		static int count = 65;  //Can be declared 
+		
+		// count  = 64;   Cannot be declared again it will give an compiler error  and cannot be used as a variable in the control statements
+		
 		public static void main(String args[]){
+			int count  = 64;   // can be decalred again in the main function and also can be used for the controll statements 
+			
 			
 			typeCasting();
 		}
