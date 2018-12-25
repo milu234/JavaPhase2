@@ -16,6 +16,28 @@ class DataTypes{
 			int iTruncated = (int)0.99;
 			System.out.println("iTruncated: " + iTruncated);
 			
+			//Implicit Cast (int to long)
+
+			y = x;
+			
+			//Implicit Cast (char to int)
+			
+			char cChar = 'A';
+			int iInt = cChar;
+			System.out.println("iInt : "+iInt);
+			
+			//Explicit conversion of byte to Character
+			
+			byte bByte = 65;
+			char dChar = (char)bByte;
+			System.out.println("dChar : "+ dChar );
+			
+			
+			
+			
+			
+			
+			
 			
 			
 		}
