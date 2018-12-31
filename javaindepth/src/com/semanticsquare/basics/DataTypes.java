@@ -31,6 +31,7 @@ class DataTypes{
 			byte bByte = 65;
 			char dChar = (char)bByte;
 			System.out.println("dChar : "+ dChar );
+			System.out.println(" That's all folks ");
 			
 			
 			
@@ -40,17 +41,26 @@ class DataTypes{
 			
 			
 			
+		
+		
 		}
 		
-		static int count = 65;  //Can be declared 
+		  //Can be declared 
 		
 		// count  = 64;   Cannot be declared again it will give an compiler error  and cannot be used as a variable in the control statements
 		
-		public static void main(String args[]){
-			int count  = 64;   // can be decalred again in the main function and also can be used for the controll statements 
+		
+		static void arrays(){
+			int [] myArray = new int [] {5,79,11,14,15,69,4};
+			System.out.println("myArray.length : " + myArray.length);
+		}
+		public static void main(String[] args){
+			   // can be decalred again in the main function and also can be used for the controll statements 
 			
 			
-			typeCasting();
+			//typeCasting();
+			arrays();
+			
 		}
 		
 		

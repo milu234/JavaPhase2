@@ -82,6 +82,14 @@ Bit depth ~ JVM specific
 Default ~ null
  -Student s ; //s is null until initialized
   s.updateProfile();//NullPointerException
-  
+ ///////////////////////////////////////
+ 
+ int[][] myArray = new int[4][2]
 
+ *new is a Java keyword.
+ It creates a Java object and allocates memory for it on the heap. 
+ new is also used for array creation, as arrays are also 
+ objects.
+ 
+ type[] myArray -> array of type
  
