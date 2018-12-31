@@ -93,3 +93,34 @@ Default ~ null
  
  type[] myArray -> array of type
  
+ 
+ 3DARRAYS
+ 
+ 
+ Method Benefits
+ -Avoid duplicate code
+ -Divide and Conquer
+ --Clean and Readable Code
+ --Software Reuse
+ 
+ 
+ 
+ Instance Methods
+ -Object-level methods
+ -Imvocation: objectRef.methodName()
+ -Affect Object State
+ --Instance Variables
+ --Other Instance methods
+ 
+ Static Methods 
+ -Keyword static in declaration
+ -Class-Level methods
+ --No access to state , i.e. can't access instance variables / methods
+ -Can access static variables
+  -Invocation: className.methodName()
+  -main method in static
+  -Can access other static methods
+ 
+  
+ 
+ 
