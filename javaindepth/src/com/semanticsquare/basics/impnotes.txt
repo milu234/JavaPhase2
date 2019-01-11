@@ -119,8 +119,52 @@ Default ~ null
  -Can access static variables
   -Invocation: className.methodName()
   -main method in static
-  -Can access other static methods
+  -Can access other static methods 
+  
+  Primitive and objct refenvces
+  
+Passing Data
+ - Pass by value(Java Uses)
+ -Pass by references
  
+Primitives in Memory
+---int id  = 1000;
+---id -> <logical name , memory address , value>
+
+Object References in Memory
+
+--Student s = new Student()
+
+
+
+Pass by Value
+
+Value of the argument is passedto parameter
+-Primitive argument ~ value is primitive
+-Object reference argument ~ value is memory address
+
+ 
+Pass by Value:Primitives
+
+void updateId(int newId) {
+newId = 1001;
+}
+
+int id = 1000;
+updateId(id);
+
+Pass by value : Object References
+
+void updateId(Student s1){
+s1.id = 1001;
+}
+
+Student s = new Student();
+s.id = 1000;
+updateId(s);
+  
+void updateId(Student s1){
+s1.
   
  
  
